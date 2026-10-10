@@ -5113,11 +5113,5 @@
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
-  },
-  "com.android.networkstack.tethering": {
-    "label": "移动热点",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
   }
 }
