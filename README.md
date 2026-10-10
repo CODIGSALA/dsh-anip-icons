@@ -5,7 +5,7 @@
 
 ## 内容
 
-- 共 **743** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中）
+- 共 **752** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中）
 - 全部放在 `icons/app/` 下，配 `icons/app/manifest.json`（包名 → 图标规则）
 
 > **为什么只有 `app/` 一棵树**：FlymeBarSizer 的 bundle 解析器只解包 `app/` 前缀
@@ -23,6 +23,7 @@ FlymeBarSizer 的渲染规则是「裁掉透明留白 → 等比 fit 到 18dp �
 
 ## 变更记录
 
+- 恢复 8 个被误删的系统图标（`android` / 蓝牙 / 浏览器 / 电子邮件 / NFC / 下载 / 设置 / 录音机）+ 新增「移动热点」`com.android.networkstack.tethering`
 - 新增「信息」`com.android.mms`（哥提供成品）与「搜狗输入法」`com.sohu.inputmethod.sogou.meizu`（原文件名 `inputnethod` 系笔误已修正）
 - 移除 92 张 Android 系统相关图标（原 `game/`、`system/` 分组：ColorOS 49 + MIUI 40 + 通用 3）
 - 恢复 `com.jd.jdlite`（京东特价版，与 `com.jingdong.app.mall` 是不同应用）
