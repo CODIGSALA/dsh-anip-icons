@@ -5097,5 +5097,21 @@
     "color": "#0175FF",
     "overlay": false,
     "contributors": "parules"
+  },
+  "com.android.mms": {
+    "label": {
+      "en": "Messages",
+      "zh-CN": "信息"
+    },
+    "format": "png",
+    "color": "#30D391",
+    "overlay": false,
+    "contributors": "CODIGSALA"
+  },
+  "com.sohu.inputmethod.sogou.meizu": {
+    "label": "搜狗输入法",
+    "format": "png",
+    "overlay": false,
+    "contributors": "CODIGSALA"
   }
 }
