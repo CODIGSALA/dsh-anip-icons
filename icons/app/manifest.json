@@ -12,6 +12,16 @@
     "overlay": false,
     "contributors": "sddpljx"
   },
+  "android": {
+    "label": {
+      "en": "Android System",
+      "zh-CN": "Android 系统"
+    },
+    "format": "png",
+    "color": "#72C476",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "android.zhibo8": {
     "label": "直播吧",
     "format": "png",
@@ -26,17 +36,17 @@
     "overlay": false,
     "contributors": "fankes"
   },
+  "bin.mt.plus.canary": {
+    "label": "MT管理器 (Beta)",
+    "format": "png",
+    "contributors": "PedroZ"
+  },
   "bin.mt.plus": {
     "label": "MT管理器",
     "format": "png",
     "color": "#444444",
     "overlay": true,
     "contributors": "fankes, xl0911xx, PedroZ"
-  },
-  "bin.mt.plus.canary": {
-    "label": "MT管理器 (Beta)",
-    "format": "png",
-    "contributors": "PedroZ"
   },
   "cmb.pb": {
     "label": "招商银行",
@@ -381,10 +391,8 @@
     "contributors": "Ink"
   },
   "com.HoYoverse.hkrpgoversea": {
-    "label": "com.HoYoverse.hkrpgoversea",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "Hokai: Star Rail",
+    "format": "png"
   },
   "com.HuaXiaBank.HuaCard": {
     "label": "华彩生活",
@@ -415,22 +423,18 @@
     "contributors": "PedroZ"
   },
   "com.UCMobile": {
-    "label": "com.UCMobile",
+    "label": "UC浏览器",
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
   },
   "com.YoStarEN.AzurLane": {
-    "label": "com.YoStarEN.AzurLane",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "Azur Lane",
+    "format": "png"
   },
   "com.YoStarJP.AzurLane": {
-    "label": "com.YoStarJP.AzurLane",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "アズールレーン",
+    "format": "png"
   },
   "com.a9second.weilaixi.wlx": {
     "label": "蔚来校园",
@@ -483,6 +487,13 @@
     "color": "#F3CC04",
     "overlay": false,
     "contributors": "mos1tech"
+  },
+  "com.ali.games.star.mini01": {
+    "label": "三国志幻想大陆",
+    "format": "png",
+    "color": "#B5BFFB",
+    "overlay": false,
+    "contributors": "NekoMua"
   },
   "com.alibaba.ailabs.tg": {
     "label": "天猫精灵",
@@ -573,6 +584,56 @@
     "overlay": false,
     "contributors": "fankes"
   },
+  "com.android.bluetooth": {
+    "label": {
+      "en": "Bluetooth",
+      "zh-CN": "蓝牙"
+    },
+    "format": "png",
+    "color": "#4C80FC",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.android.browser": {
+    "label": {
+      "en": "Mi Browser",
+      "zh-CN": "浏览器"
+    },
+    "format": "png",
+    "color": "#50AFFF",
+    "overlay": false,
+    "contributors": "PedroZ, fankes"
+  },
+  "com.android.contacts": {
+    "label": {
+      "en": "Contacts",
+      "zh-CN": "联系人"
+    },
+    "format": "png",
+    "color": "#166ED2",
+    "overlay": false,
+    "contributors": "fankes, AzusaHana"
+  },
+  "com.android.email": {
+    "label": {
+      "en": "Email",
+      "zh-CN": "电子邮件"
+    },
+    "format": "png",
+    "color": "#2B579A",
+    "overlay": false,
+    "contributors": "PedroZ"
+  },
+  "com.android.fileexplorer": {
+    "label": {
+      "en": "File Manager",
+      "zh-CN": "文件管理"
+    },
+    "format": "png",
+    "color": "#FFC550",
+    "overlay": false,
+    "contributors": "Raipt"
+  },
   "com.android.haitong": {
     "label": "海通e海通财",
     "format": "png",
@@ -586,6 +647,76 @@
     "color": "#2196F3",
     "overlay": false,
     "contributors": "NekoMua"
+  },
+  "com.android.launcher": {
+    "label": {
+      "en": "System Launcher",
+      "zh-CN": "系统桌面"
+    },
+    "format": "png",
+    "color": "#285EF6",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.android.mms": {
+    "label": {
+      "en": "Messages",
+      "zh-CN": "信息"
+    },
+    "format": "png",
+    "color": "#30D391",
+    "overlay": false,
+    "contributors": "fankes, AzusaHana"
+  },
+  "com.android.nfc": {
+    "label": {
+      "en": "NFC Service",
+      "zh-CN": "NFC 服务"
+    },
+    "format": "png",
+    "color": "#212121",
+    "overlay": false,
+    "contributors": "NekoMua"
+  },
+  "com.android.providers.downloads": {
+    "label": {
+      "en": "Downloads",
+      "zh-CN": "下载管理程序"
+    },
+    "format": "png",
+    "color": "#72C476",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.android.settings": {
+    "label": {
+      "en": "Settings",
+      "zh-CN": "设置"
+    },
+    "format": "png",
+    "color": "#42A5F5",
+    "overlay": true,
+    "contributors": "NekoMua"
+  },
+  "com.android.soundrecorder": {
+    "label": {
+      "en": "Recorder",
+      "zh-CN": "录音机"
+    },
+    "format": "png",
+    "color": "#FF3A3A",
+    "overlay": false,
+    "contributors": "Mars, fankes"
+  },
+  "com.android.thememanager": {
+    "label": {
+      "en": "Themes",
+      "zh-CN": "主题壁纸"
+    },
+    "format": "png",
+    "color": "#D943A5",
+    "overlay": false,
+    "contributors": "PedroZ, fankes"
   },
   "com.android36kr.app": {
     "label": "36氪",
@@ -761,6 +892,13 @@
     "overlay": false,
     "contributors": "fankes"
   },
+  "com.baitian.aobi.czs.mi": {
+    "label": "奥比岛 (小米渠道服)",
+    "format": "png",
+    "color": "#A3B1E8",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "com.baixin.mobilebank": {
     "label": "百信银行",
     "format": "png",
@@ -821,83 +959,64 @@
     "label": "哔哩哔哩 (Play)",
     "format": "png"
   },
-  "com.bilibili.blhx.baidu": {
-    "label": "com.bilibili.blhx.baidu",
+  "com.bilibili.azurlane": {
+    "label": "碧蓝航线",
     "format": "png",
+    "color": "#FF6699",
     "overlay": false,
-    "contributors": "CODIGSALA"
+    "contributors": "zzyym"
+  },
+  "com.bilibili.blhx.baidu": {
+    "label": "碧蓝航线 (百度渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.bilibiliMove": {
-    "label": "com.bilibili.blhx.bilibiliMove",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (迁移渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.dl": {
-    "label": "com.bilibili.blhx.dl",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (当乐渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.huawei": {
-    "label": "com.bilibili.blhx.huawei",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (华为渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.lenovo": {
-    "label": "com.bilibili.blhx.lenovo",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (联想渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.m4399": {
-    "label": "com.bilibili.blhx.m4399",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (4399渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.mi": {
-    "label": "com.bilibili.blhx.mi",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (小米渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.mz": {
-    "label": "com.bilibili.blhx.mz",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (魅族渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.mzw": {
-    "label": "com.bilibili.blhx.mzw",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (拇指玩渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.nearme.gamecenter": {
-    "label": "com.bilibili.blhx.nearme.gamecenter",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (OPPO 渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.qihoo": {
-    "label": "com.bilibili.blhx.qihoo",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (360渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.uc": {
-    "label": "com.bilibili.blhx.uc",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (UC九游渠道服)",
+    "format": "png"
   },
   "com.bilibili.blhx.vivo": {
-    "label": "com.bilibili.blhx.vivo",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (vivo 渠道服)",
+    "format": "png"
   },
   "com.bilibili.comic": {
     "label": "哔哩哔哩漫画",
@@ -1241,17 +1360,181 @@
     "overlay": false,
     "contributors": "fankes"
   },
-  "com.coloros.weather.service": {
-    "label": "com.coloros.weather.service",
+  "com.coloros.alarmclock": {
+    "label": {
+      "en": "Clock",
+      "zh-CN": "时钟"
+    },
     "format": "png",
     "overlay": false,
-    "contributors": "CODIGSALA"
+    "contributors": "fankes"
+  },
+  "com.coloros.assistantscreen": {
+    "label": {
+      "en": "Smart Assistant",
+      "zh-CN": "速览"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.calendar": {
+    "label": {
+      "en": "Calendar",
+      "zh-CN": "日历"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "PedroZ"
+  },
+  "com.coloros.codebook": {
+    "label": {
+      "en": "Password Book",
+      "zh-CN": "密码本"
+    },
+    "format": "png",
+    "color": "#63C9A9",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.digitalwellbeing": {
+    "label": {
+      "en": "Digital Wellbeing",
+      "zh-CN": "应用使用时间"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.familyguard": {
+    "label": {
+      "en": "Family Space",
+      "zh-CN": "家庭空间"
+    },
+    "format": "png",
+    "color": "#29D583",
+    "overlay": false,
+    "contributors": "PedroZ"
+  },
+  "com.coloros.findmyphone": {
+    "label": {
+      "en": "Find My Phone",
+      "zh-CN": "查找"
+    },
+    "format": "png",
+    "color": "#2B5ED2",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.gallery3d": {
+    "label": {
+      "en": "Photos",
+      "zh-CN": "相册"
+    },
+    "format": "png",
+    "color": "#55A1FE",
+    "overlay": false,
+    "contributors": "lns103"
+  },
+  "com.coloros.note": {
+    "label": {
+      "en": "Notes",
+      "zh-CN": "便签"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "a1623382"
+  },
+  "com.coloros.operationManual": {
+    "label": {
+      "en": "Help & Feedback",
+      "zh-CN": "帮助与反馈"
+    },
+    "format": "png",
+    "color": "#FF7700",
+    "overlay": false,
+    "contributors": "oosl"
+  },
+  "com.coloros.phonemanager": {
+    "label": {
+      "en": "Phone Manager",
+      "zh-CN": "手机管家"
+    },
+    "format": "png",
+    "color": "#85C3AF",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.sceneservice": {
+    "label": {
+      "en": "Data Service Platform",
+      "zh-CN": "数据服务平台"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.screenrecorder": {
+    "label": {
+      "en": "Screen Recording (OPPO)",
+      "zh-CN": "屏幕录制 (OPPO)"
+    },
+    "format": "png",
+    "color": "#DB762F",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.securitypermission": {
+    "label": {
+      "en": "Permission Management",
+      "zh-CN": "权限管理"
+    },
+    "format": "png",
+    "color": "#0079FF",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.sharescreen": {
+    "label": {
+      "en": "Screen Sharing",
+      "zh-CN": "屏幕共享"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.shortcuts": {
+    "label": {
+      "en": "Breeno Commands",
+      "zh-CN": "小布指令"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.coloros.soundrecorder": {
+    "label": {
+      "en": "Recorder",
+      "zh-CN": "录音"
+    },
+    "format": "png",
+    "color": "#FB422E",
+    "overlay": false,
+    "contributors": "NekoMua"
+  },
+  "com.coloros.weather.service": {
+    "label": {
+      "en": "ColorOS Weather Service",
+      "zh-CN": "ColorOS 天气服务"
+    },
+    "format": "png"
   },
   "com.coloros.weather2": {
-    "label": "com.coloros.weather2",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": {
+      "en": "ColorOS Weather",
+      "zh-CN": "ColorOS 天气"
+    },
+    "format": "png"
   },
   "com.coolapk.market": {
     "label": "酷安",
@@ -1631,6 +1914,15 @@
     "overlay": false,
     "contributors": "SRainerc"
   },
+  "com.finshell.wallet": {
+    "label": {
+      "en": "Wallet",
+      "zh-CN": "钱包"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "com.fiveplay": {
     "label": "5EPlay",
     "format": "png",
@@ -1902,6 +2194,25 @@
     "overlay": false,
     "contributors": "NekoMua"
   },
+  "com.heytap.browser": {
+    "label": {
+      "en": "Browser",
+      "zh-CN": "浏览器"
+    },
+    "format": "png",
+    "color": "#50AFFF",
+    "overlay": true,
+    "contributors": "PedroZ, fankes"
+  },
+  "com.heytap.cloud": {
+    "label": {
+      "en": "Cloud",
+      "zh-CN": "云服务"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "com.heytap.headset": {
     "label": "欢律",
     "format": "png",
@@ -1915,11 +2226,69 @@
     "overlay": false,
     "contributors": "PedroZ"
   },
+  "com.heytap.market": {
+    "label": {
+      "en": "App Market",
+      "zh-CN": "软件商店"
+    },
+    "format": "png",
+    "color": "#58D37D",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.heytap.mcs": {
+    "label": {
+      "en": "System Messages",
+      "zh-CN": "系统消息"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.heytap.music": {
+    "label": {
+      "en": "Music",
+      "zh-CN": "音乐"
+    },
+    "format": "png",
+    "color": "#EA6057",
+    "overlay": false,
+    "contributors": "NekoMua"
+  },
   "com.heytap.ocsp.client": {
     "label": "众包",
     "format": "png",
     "overlay": false,
     "contributors": "oosl"
+  },
+  "com.heytap.reader": {
+    "label": {
+      "en": "Reader",
+      "zh-CN": "阅读"
+    },
+    "format": "png",
+    "color": "#F2A135",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.heytap.speechassist": {
+    "label": {
+      "en": "Breeno Assistant",
+      "zh-CN": "小布助手"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.heytap.themestore": {
+    "label": {
+      "en": "Theme Store",
+      "zh-CN": "主题商店"
+    },
+    "format": "png",
+    "color": "#D943A5",
+    "overlay": false,
+    "contributors": "PedroZ, fankes"
   },
   "com.heytap.yoli": {
     "label": "欢太视频",
@@ -1930,17 +2299,13 @@
     "format": "png",
     "contributors": "heinumin, lamprose, fankes"
   },
-  "com.hkmanjuu.azurlane.gp": {
-    "label": "com.hkmanjuu.azurlane.gp",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
-  },
   "com.hkmanjuu.azurlane.gp.mc": {
-    "label": "com.hkmanjuu.azurlane.gp.mc",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧藍航線",
+    "format": "png"
+  },
+  "com.hkmanjuu.azurlane.gp": {
+    "label": "碧藍航線",
+    "format": "png"
   },
   "com.hnjiajie.zhixiaole": {
     "label": "智校乐",
@@ -2077,6 +2442,13 @@
     "color": "#F14B3D",
     "contributors": "Ollie"
   },
+  "com.huazz145push": {
+    "label": "huazz145专用推送",
+    "format": "png",
+    "color": "#F16033",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "com.hunantv.imgo.activity": {
     "label": "芒果TV",
     "format": "png",
@@ -2123,13 +2495,6 @@
     "overlay": false,
     "contributors": "Ink"
   },
-  "com.icbc": {
-    "label": "中国工商银行",
-    "format": "png",
-    "color": "#A90000",
-    "overlay": false,
-    "contributors": "fankes, naicfeng"
-  },
   "com.icbc.biz.elife": {
     "label": "工银商户之家",
     "format": "png",
@@ -2151,6 +2516,13 @@
     "overlay": false,
     "contributors": "fankes"
   },
+  "com.icbc": {
+    "label": "中国工商银行",
+    "format": "png",
+    "color": "#A90000",
+    "overlay": false,
+    "contributors": "fankes, naicfeng"
+  },
   "com.idaodan.video.factory": {
     "label": "KB视频工厂",
     "format": "png",
@@ -2171,6 +2543,16 @@
     "color": "#0D1C38",
     "overlay": false,
     "contributors": "scrpr"
+  },
+  "com.iflytek.inputmethod.miui": {
+    "label": {
+      "en": "iFlytek Input Method for MIUI",
+      "zh-CN": "讯飞输入法小米版"
+    },
+    "format": "png",
+    "color": "#4679E9",
+    "overlay": false,
+    "contributors": "fankes"
   },
   "com.iflytek.inputmethod": {
     "label": "讯飞输入法",
@@ -2392,19 +2774,19 @@
     "overlay": false,
     "contributors": "fankes"
   },
-  "com.kugou.android": {
-    "label": "酷狗音乐",
-    "format": "png",
-    "color": "#5493CA",
-    "overlay": false,
-    "contributors": "fankes"
-  },
   "com.kugou.android.lite": {
     "label": "酷狗概念版",
     "format": "png",
     "color": "#5493CA",
     "overlay": false,
     "contributors": "fankes, dreamy"
+  },
+  "com.kugou.android": {
+    "label": "酷狗音乐",
+    "format": "png",
+    "color": "#5493CA",
+    "overlay": false,
+    "contributors": "fankes"
   },
   "com.kurogame.kjq": {
     "label": "库街区",
@@ -2448,6 +2830,16 @@
     "color": "#6366F1",
     "overlay": false,
     "contributors": "月月, Giresharu"
+  },
+  "com.lbe.security.miui": {
+    "label": {
+      "en": "Permission Management Service",
+      "zh-CN": "权限管理服务"
+    },
+    "format": "png",
+    "color": "#3B8FFF",
+    "overlay": false,
+    "contributors": "sddpljx"
   },
   "com.leisu.sports": {
     "label": "雷速体育",
@@ -2617,6 +3009,16 @@
     "overlay": false,
     "contributors": "NekoMua"
   },
+  "com.mfashiongallery.emag": {
+    "label": {
+      "en": "Wallpaper Carousel",
+      "zh-CN": "小米画报"
+    },
+    "format": "png",
+    "color": "#E487AE",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "com.mfcloudcalculate.networkdisk": {
     "label": "123云盘",
     "format": "png",
@@ -2655,22 +3057,35 @@
     "contributors": "fankes, PianCat"
   },
   "com.miHoYo.GenshinImpact": {
-    "label": "com.miHoYo.GenshinImpact",
+    "label": "Genshin Impact",
+    "format": "png"
+  },
+  "com.miHoYo.Yuanshen": {
+    "label": "原神",
     "format": "png",
     "overlay": false,
-    "contributors": "CODIGSALA"
+    "contributors": "fankes"
+  },
+  "com.miHoYo.enterprise.NGHSoD": {
+    "label": "崩坏3",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miHoYo.hkrpg": {
+    "label": "崩坏：星穹铁道",
+    "format": "png",
+    "overlay": false,
+    "contributors": "NekoMua, ZzzZzh"
   },
   "com.miHoYo.ys.bilibili": {
-    "label": "com.miHoYo.ys.bilibili",
+    "label": "原神 (哔哩哔哩渠道服)",
     "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "contributors": "fankes, heming505"
   },
   "com.miHoYo.ys.mi": {
-    "label": "com.miHoYo.ys.mi",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "原神 (小米渠道服)",
+    "format": "png"
   },
   "com.microsoft.emmx": {
     "label": "Microsoft Edge",
@@ -2707,9 +3122,192 @@
     "overlay": false,
     "contributors": "fankes"
   },
+  "com.mipay.wallet": {
+    "label": {
+      "en": "Mi Wallet",
+      "zh-CN": "小米钱包"
+    },
+    "format": "png",
+    "color": "#0CA8FF",
+    "overlay": false,
+    "contributors": "PedroZ, sddpljx"
+  },
+  "com.miui.audiomonitor": {
+    "label": {
+      "en": "Recording Assistant",
+      "zh-CN": "录音助手"
+    },
+    "format": "png",
+    "color": "#FF3A3A",
+    "overlay": false,
+    "contributors": "Mars, fankes"
+  },
+  "com.miui.bugreport": {
+    "label": {
+      "en": "Feedback",
+      "zh-CN": "用户反馈"
+    },
+    "format": "png",
+    "color": "#21A2EE",
+    "overlay": false,
+    "contributors": "fankes, jasongzy"
+  },
+  "com.miui.cloudservice": {
+    "label": {
+      "en": "Xiaomi Cloud",
+      "zh-CN": "小米云服务"
+    },
+    "format": "png",
+    "color": "#05A5FA",
+    "overlay": false,
+    "contributors": "fankes, jasongzy"
+  },
+  "com.miui.fm": {
+    "label": "蜻蜓FM",
+    "format": "png",
+    "color": "#D8271C",
+    "overlay": false,
+    "contributors": "ghcsd"
+  },
+  "com.miui.gallery": {
+    "label": {
+      "en": "Gallery",
+      "zh-CN": "小米相册"
+    },
+    "format": "png",
+    "color": "#888FFF",
+    "overlay": false,
+    "contributors": "parules"
+  },
+  "com.miui.mishare.connectivity": {
+    "label": {
+      "en": "Mi Share",
+      "zh-CN": "小米互传"
+    },
+    "format": "png",
+    "color": "#7F98FC",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miui.misound": {
+    "label": {
+      "en": "Sound Effects",
+      "zh-CN": "音质音效"
+    },
+    "format": "png",
+    "color": "#82529D",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miui.newhome": {
+    "label": {
+      "en": "Content Center",
+      "zh-CN": "内容中心"
+    },
+    "format": "png",
+    "color": "#FF441A",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miui.password": {
+    "label": {
+      "en": "Passwords",
+      "zh-CN": "密码"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "MOCHbbb"
+  },
+  "com.miui.personalassistant": {
+    "label": {
+      "en": "App Vault",
+      "zh-CN": "智能助理"
+    },
+    "format": "png",
+    "color": "#19A5FA",
+    "overlay": false,
+    "contributors": "Illustar0"
+  },
+  "com.miui.player": {
+    "label": {
+      "en": "Mi Music",
+      "zh-CN": "小米音乐"
+    },
+    "format": "png",
+    "color": "#29CBB6",
+    "overlay": false,
+    "contributors": "naicfeng, fankes"
+  },
+  "com.miui.securitycenter": {
+    "label": {
+      "en": "Security",
+      "zh-CN": "手机管家"
+    },
+    "format": "png",
+    "color": "#4981EC",
+    "overlay": true,
+    "contributors": "fankes"
+  },
+  "com.miui.systemAdSolution": {
+    "label": {
+      "en": "msa",
+      "zh-CN": "智能服务"
+    },
+    "format": "png",
+    "overlay": true,
+    "contributors": "fankes"
+  },
+  "com.miui.thirdappassistant": {
+    "label": {
+      "en": "Third-party App Anomaly Analysis",
+      "zh-CN": "三方应用异常分析"
+    },
+    "format": "png",
+    "color": "#68E68C",
+    "overlay": false,
+    "contributors": "HeMing505"
+  },
+  "com.miui.tsmclient": {
+    "label": {
+      "en": "Mi Smart Card",
+      "zh-CN": "小米智能卡"
+    },
+    "format": "png",
+    "color": "#177DE7",
+    "overlay": true,
+    "contributors": "sddpljx"
+  },
   "com.miui.video": {
     "label": "小米视频",
     "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miui.voiceassist": {
+    "label": {
+      "en": "XiaoAI",
+      "zh-CN": "小爱同学"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miui.voicetrigger": {
+    "label": {
+      "en": "Voice Wake-up",
+      "zh-CN": "语音唤醒"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "HeMing505"
+  },
+  "com.miui.weather2": {
+    "label": {
+      "en": "Xiaomi Weather",
+      "zh-CN": "小米天气"
+    },
+    "format": "png",
+    "color": "#5F94E2",
     "overlay": false,
     "contributors": "fankes"
   },
@@ -2828,6 +3426,16 @@
     "overlay": false,
     "contributors": "NekoMua"
   },
+  "com.nearme.gamecenter": {
+    "label": {
+      "en": "Game Center",
+      "zh-CN": "游戏中心"
+    },
+    "format": "png",
+    "color": "#E04D42",
+    "overlay": false,
+    "contributors": "PedroZ"
+  },
   "com.netease.android.cloudgame": {
     "label": "网易云游戏",
     "format": "png",
@@ -2842,17 +3450,17 @@
     "overlay": false,
     "contributors": "NekoMua"
   },
+  "com.netease.cloudmusic.lite": {
+    "label": "网易云音乐极速版",
+    "format": "png",
+    "overlay": true
+  },
   "com.netease.cloudmusic": {
     "label": "网易云音乐",
     "format": "png",
     "color": "#BD0020",
     "overlay": false,
     "contributors": "lamprose, fankes"
-  },
-  "com.netease.cloudmusic.lite": {
-    "label": "网易云音乐极速版",
-    "format": "png",
-    "overlay": true
   },
   "com.netease.edu.ucmooc": {
     "label": "中国大学 MOOC",
@@ -2901,22 +3509,23 @@
     "contributors": "Basstorm"
   },
   "com.netease.sky.mi": {
-    "label": "com.netease.sky.mi",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "光·遇 (小米渠道服)",
+    "format": "png"
   },
   "com.netease.sky.nearme.gamecenter": {
-    "label": "com.netease.sky.nearme.gamecenter",
+    "label": "光·遇 (OPPO 渠道服)",
+    "format": "png"
+  },
+  "com.netease.sky": {
+    "label": "光·遇",
     "format": "png",
+    "color": "#D78951",
     "overlay": false,
-    "contributors": "CODIGSALA"
+    "contributors": "leoli"
   },
   "com.netease.sky.vivo": {
-    "label": "com.netease.sky.vivo",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "光·遇 (vivo 渠道服)",
+    "format": "png"
   },
   "com.netease.snailread": {
     "label": "网易蜗牛读书",
@@ -3006,6 +3615,36 @@
     "overlay": false,
     "contributors": "G31415"
   },
+  "com.oneplus.bbs": {
+    "label": {
+      "en": "OnePlus Community",
+      "zh-CN": "一加社区"
+    },
+    "format": "png",
+    "color": "#F44336",
+    "overlay": false,
+    "contributors": "NekoMua"
+  },
+  "com.oneplus.brickmode": {
+    "label": {
+      "en": "Zen Mode",
+      "zh-CN": "禅定模式"
+    },
+    "format": "png",
+    "color": "#3E3CD5",
+    "overlay": true,
+    "contributors": "fankes"
+  },
+  "com.oneplus.member": {
+    "label": {
+      "en": "My OnePlus",
+      "zh-CN": "我的一加"
+    },
+    "format": "png",
+    "color": "#FF3355",
+    "overlay": false,
+    "contributors": "oosl"
+  },
   "com.onethingcloud.android": {
     "label": "网心云",
     "format": "png",
@@ -3013,10 +3652,161 @@
     "overlay": false,
     "contributors": "Basstorm"
   },
+  "com.oplus.aimemory": {
+    "label": {
+      "en": "AI Mind Space",
+      "zh-CN": "小布记忆"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "giresharu"
+  },
+  "com.oplus.audiomonitor": {
+    "label": {
+      "en": "Smart Voice",
+      "zh-CN": "智慧语音"
+    },
+    "format": "png",
+    "color": "#09D750",
+    "overlay": false,
+    "contributors": "09277632"
+  },
+  "com.oplus.battery": {
+    "label": {
+      "en": "Battery",
+      "zh-CN": "电池"
+    },
+    "format": "png",
+    "color": "#5BCA46",
+    "overlay": false,
+    "contributors": "PedroZ, AzusaHana, fankes"
+  },
+  "com.oplus.eyeprotect": {
+    "label": {
+      "en": "Eye Comfort",
+      "zh-CN": "护眼模式"
+    },
+    "format": "png",
+    "color": "#FFD700",
+    "overlay": false,
+    "contributors": "oosl"
+  },
+  "com.oplus.games": {
+    "label": {
+      "en": "Games",
+      "zh-CN": "游戏助手"
+    },
+    "format": "png",
+    "color": "#4332C3",
+    "overlay": false,
+    "contributors": "NekoMua"
+  },
+  "com.oplus.linker": {
+    "label": {
+      "en": "Device Interconnection Service",
+      "zh-CN": "设备互联服务"
+    },
+    "format": "png",
+    "color": "#426BFF",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.oplus.nas": {
+    "label": {
+      "en": "Network Services",
+      "zh-CN": "网络服务"
+    },
+    "format": "png",
+    "color": "#1A6AFF",
+    "overlay": false,
+    "contributors": "oosl"
+  },
+  "com.oplus.ocar": {
+    "label": "Car+车联",
+    "format": "png",
+    "overlay": false,
+    "contributors": "CrazyBing-bro"
+  },
+  "com.oplus.ota": {
+    "label": {
+      "en": "Software Update",
+      "zh-CN": "软件更新"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.oplus.owork": {
+    "label": {
+      "en": "OWork",
+      "zh-CN": "随身工作台"
+    },
+    "format": "png",
+    "color": "#2D40E9",
+    "overlay": false,
+    "contributors": "ConleyFu"
+  },
+  "com.oplus.screenrecorder": {
+    "label": {
+      "en": "Screen Recording (OnePlus)",
+      "zh-CN": "屏幕录制 (一加)"
+    },
+    "format": "png",
+    "color": "#EC3E50",
+    "overlay": false,
+    "contributors": "fankes, PedroZ"
+  },
+  "com.oplus.securitypermission": {
+    "label": "权限管理",
+    "format": "png",
+    "color": "#2E8FFF",
+    "overlay": false,
+    "contributors": "oosl"
+  },
+  "com.oplus.uxdesign": {
+    "label": {
+      "en": "Personalizations",
+      "zh-CN": "个性化定制"
+    },
+    "format": "png",
+    "color": "#5ACB46",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.oplus.vdc": {
+    "label": {
+      "en": "Peripheral Device Convergence Framework",
+      "zh-CN": "外设融合框架"
+    },
+    "format": "png",
+    "color": "#1593F8",
+    "overlay": false,
+    "contributors": "oosl"
+  },
+  "com.oppo.community": {
+    "label": {
+      "en": "OPPO Community",
+      "zh-CN": "OPPO 社区"
+    },
+    "format": "png",
+    "color": "#62C9A9",
+    "overlay": false,
+    "contributors": "PedroZ"
+  },
   "com.oppo.store": {
     "label": "OPPO 商城",
     "format": "png",
     "color": "#2B6E33",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.oppo.usercenter": {
+    "label": {
+      "en": "My OPPO",
+      "zh-CN": "我的 OPPO"
+    },
+    "format": "png",
+    "color": "#F4BF1F",
     "overlay": false,
     "contributors": "fankes"
   },
@@ -3534,13 +4324,6 @@
     "overlay": false,
     "contributors": "fankes"
   },
-  "com.ss.android.lark": {
-    "label": "飞书",
-    "format": "png",
-    "color": "#3370FF",
-    "overlay": false,
-    "contributors": "HeMing505"
-  },
   "com.ss.android.lark.kacrc": {
     "label": "润工作3.0",
     "format": "png",
@@ -3554,19 +4337,19 @@
     "overlay": false,
     "contributors": "fankes"
   },
+  "com.ss.android.lark": {
+    "label": "飞书",
+    "format": "png",
+    "color": "#3370FF",
+    "overlay": false,
+    "contributors": "HeMing505"
+  },
   "com.ss.android.merchant": {
     "label": "抖店",
     "format": "png",
     "color": "#0050FF",
     "overlay": false,
     "contributors": "fankes, jbwjzcuv"
-  },
-  "com.ss.android.ugc.aweme": {
-    "label": "抖音",
-    "format": "png",
-    "color": "#232323",
-    "overlay": false,
-    "contributors": "fankes, piscesmk2013, Tan"
   },
   "com.ss.android.ugc.aweme.lite": {
     "label": "抖音极速版",
@@ -3575,6 +4358,13 @@
   "com.ss.android.ugc.aweme.mobile": {
     "label": "抖音Play版",
     "format": "png"
+  },
+  "com.ss.android.ugc.aweme": {
+    "label": "抖音",
+    "format": "png",
+    "color": "#232323",
+    "overlay": false,
+    "contributors": "fankes, piscesmk2013, Tan"
   },
   "com.ss.android.ugc.lifeservices": {
     "label": "抖省省",
@@ -3808,12 +4598,24 @@
     "overlay": false,
     "contributors": "月月"
   },
+  "com.tencent.jkchess": {
+    "label": "金铲铲之战",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "com.tencent.karaoke": {
     "label": "全民K歌",
     "format": "png",
     "color": "#F2564A",
     "overlay": false,
     "contributors": "PedroZ"
+  },
+  "com.tencent.lolm": {
+    "label": "英雄联盟手游",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
   },
   "com.tencent.map": {
     "label": {
@@ -3919,10 +4721,27 @@
     "contributors": "fankes"
   },
   "com.tencent.tmgp.bilibili.blhx": {
-    "label": "com.tencent.tmgp.bilibili.blhx",
+    "label": "碧蓝航线 (腾讯应用宝渠道服)",
+    "format": "png"
+  },
+  "com.tencent.tmgp.cod": {
+    "label": "使命召唤手游",
+    "format": "png",
+    "color": "#ECD613",
+    "overlay": false,
+    "contributors": "09277632"
+  },
+  "com.tencent.tmgp.pubgmhd": {
+    "label": "和平精英",
     "format": "png",
     "overlay": false,
-    "contributors": "CODIGSALA"
+    "contributors": "fankes"
+  },
+  "com.tencent.tmgp.sgame": {
+    "label": "王者荣耀",
+    "format": "png",
+    "overlay": false,
+    "contributors": "lamprose, fankes"
   },
   "com.tencent.voov": {
     "label": "VooV",
@@ -4061,7 +4880,7 @@
     "contributors": "fankes, by32mu"
   },
   "com.twitter.android": {
-    "label": "com.twitter.android",
+    "label": "Twitter",
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
@@ -4074,7 +4893,7 @@
     "contributors": "hxh34"
   },
   "com.ucmobile.lite": {
-    "label": "com.ucmobile.lite",
+    "label": "UC浏览器极速版",
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
@@ -4309,6 +5128,55 @@
     "overlay": false,
     "contributors": "NekoMua"
   },
+  "com.xiaomi.aiasst.service": {
+    "label": {
+      "en": "XiaoAI Call",
+      "zh-CN": "小爱通话"
+    },
+    "format": "png",
+    "color": "#0AAAFA",
+    "overlay": true,
+    "contributors": "parules"
+  },
+  "com.xiaomi.aiasst.vision": {
+    "label": {
+      "en": "XiaoAI Translate",
+      "zh-CN": "小爱翻译"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "NekoMua"
+  },
+  "com.xiaomi.bluetooth": {
+    "label": {
+      "en": "MIUI Bluetooth",
+      "zh-CN": "MIUI 蓝牙"
+    },
+    "format": "png",
+    "color": "#4C80FC",
+    "overlay": true,
+    "contributors": "fankes"
+  },
+  "com.xiaomi.drivemode": {
+    "label": {
+      "en": "Driving Mode",
+      "zh-CN": "驾车场景"
+    },
+    "format": "png",
+    "color": "#615EE2",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.xiaomi.gamecenter": {
+    "label": {
+      "en": "Game Center",
+      "zh-CN": "游戏中心"
+    },
+    "format": "png",
+    "color": "#55C6CE",
+    "overlay": false,
+    "contributors": "fankes, parules"
+  },
   "com.xiaomi.hm.health": {
     "label": {
       "en": "Zepp Life",
@@ -4326,6 +5194,16 @@
     "overlay": false,
     "contributors": "fankes"
   },
+  "com.xiaomi.market": {
+    "label": {
+      "en": "GetApps",
+      "zh-CN": "应用商店"
+    },
+    "format": "png",
+    "color": "#F16033",
+    "overlay": false,
+    "contributors": "fankes, jasongzy"
+  },
   "com.xiaomi.mico": {
     "label": "小爱音箱",
     "format": "png",
@@ -4333,12 +5211,32 @@
     "overlay": false,
     "contributors": "NekoMua"
   },
+  "com.xiaomi.migameservice": {
+    "label": {
+      "en": "Game Highlights",
+      "zh-CN": "游戏高能时刻"
+    },
+    "format": "png",
+    "color": "#4389F9",
+    "overlay": false,
+    "contributors": "fankes"
+  },
   "com.xiaomi.mimobile": {
     "label": "小米移动",
     "format": "png",
     "color": "#76BBF3",
     "overlay": false,
     "contributors": "Longli928"
+  },
+  "com.xiaomi.mirror": {
+    "label": {
+      "en": "Interconnectivity (formerly MIUI+)",
+      "zh-CN": "小米妙享 (原 MIUI+)"
+    },
+    "format": "png",
+    "color": "#21A2EE",
+    "overlay": true,
+    "contributors": "PedroZ, parules"
   },
   "com.xiaomi.router": {
     "label": "小米 WiFi",
@@ -4353,6 +5251,16 @@
     "color": "#E64A19",
     "overlay": false,
     "contributors": "lamprose, fankes, NekoMua"
+  },
+  "com.xiaomi.simactivate.service": {
+    "label": {
+      "en": "Xiaomi SIM Activation Service",
+      "zh-CN": "小米 SIM 卡激活服务"
+    },
+    "format": "png",
+    "color": "#F49026",
+    "overlay": false,
+    "contributors": "fankes"
   },
   "com.xiaomi.smarthome": {
     "label": {
@@ -4369,6 +5277,16 @@
     "format": "png",
     "overlay": false,
     "contributors": "zzyym"
+  },
+  "com.xiaomi.vipaccount": {
+    "label": {
+      "en": "Xiaomi Community",
+      "zh-CN": "小米社区"
+    },
+    "format": "png",
+    "color": "#F03C51",
+    "overlay": false,
+    "contributors": "lamprose, fankes"
   },
   "com.xiaomi.wearable": {
     "label": {
@@ -4616,10 +5534,8 @@
     "contributors": "fankes"
   },
   "com.yiwu.blhx.yx15": {
-    "label": "com.yiwu.blhx.yx15",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
+    "label": "碧蓝航线 (一五游戏渠道服)",
+    "format": "png"
   },
   "com.yiyou.ga": {
     "label": "TT语音",
@@ -4732,6 +5648,11 @@
     "overlay": false,
     "contributors": "mos1tech"
   },
+  "com.zhihu.android.lite": {
+    "label": "知乎极速版",
+    "format": "png",
+    "contributors": "PedroZ, fankes, Slinet6056"
+  },
   "com.zhihu.android": {
     "label": "知乎",
     "format": "png",
@@ -4739,19 +5660,14 @@
     "overlay": false,
     "contributors": "PedroZ, fankes"
   },
-  "com.zhihu.android.lite": {
-    "label": "知乎极速版",
-    "format": "png",
-    "contributors": "PedroZ, fankes, Slinet6056"
+  "com.zhiliaoapp.musically.go": {
+    "label": "TikTok Lite",
+    "format": "png"
   },
   "com.zhiliaoapp.musically": {
     "label": "TikTok Lite",
     "format": "png",
     "contributors": "fankes, piscesmk2013, NekoMua, Tan"
-  },
-  "com.zhiliaoapp.musically.go": {
-    "label": "TikTok Lite",
-    "format": "png"
   },
   "com.zhumaonline.exercise": {
     "label": "竹马",
@@ -4940,13 +5856,6 @@
     "contributors": "HeMing505"
   },
   "net.evecom.android.mztapp": {
-    "label": "闽政通",
-    "format": "png",
-    "color": "#294A9D",
-    "overlay": false,
-    "contributors": "Giresharu"
-  },
-  "net.evecom.android.mztapp ": {
     "label": "net.evecom.android.mztapp ",
     "format": "png",
     "overlay": false,
@@ -5074,5 +5983,11 @@
     "color": "#0175FF",
     "overlay": false,
     "contributors": "parules"
+  },
+  "com.dsharnessmobile.shell": {
+    "label": "DSH",
+    "format": "png",
+    "overlay": false,
+    "contributors": "CODIGSALA"
   }
 }
