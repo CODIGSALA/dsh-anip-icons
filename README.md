@@ -5,7 +5,7 @@
 
 ## 内容
 
-- 共 **833** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中）
+- 共 **743** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中）
 - 全部放在 `icons/app/` 下，配 `icons/app/manifest.json`（包名 → 图标规则）
 
 > **为什么只有 `app/` 一棵树**：FlymeBarSizer 的 bundle 解析器只解包 `app/` 前缀
@@ -23,6 +23,8 @@ FlymeBarSizer 的渲染规则是「裁掉透明留白 → 等比 fit 到 18dp �
 
 ## 变更记录
 
+- 新增「信息」`com.android.mms`（哥提供成品）与「搜狗输入法」`com.sohu.inputmethod.sogou.meizu`（原文件名 `inputnethod` 系笔误已修正）
+- 移除 92 张 Android 系统相关图标（原 `game/`、`system/` 分组：ColorOS 49 + MIUI 40 + 通用 3）
 - 恢复 `com.jd.jdlite`（京东特价版，与 `com.jingdong.app.mall` 是不同应用）
 - DSH 图标重做：图形 43×38，渲染 54×48，与微信同档；四边各留 1px，不再裁到像素
 - 全量尺寸校准（见上）
