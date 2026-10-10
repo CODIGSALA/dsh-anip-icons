@@ -423,7 +423,7 @@
     "contributors": "PedroZ"
   },
   "com.UCMobile": {
-    "label": "UC浏览器",
+    "label": "com.UCMobile",
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
@@ -870,6 +870,13 @@
     "label": "百度网盘联运版",
     "format": "png",
     "contributors": "fankes, NekoMua"
+  },
+  "com.baidu.searchbox": {
+    "label": "百度",
+    "format": "png",
+    "color": "#496CFB",
+    "overlay": false,
+    "contributors": "fankes"
   },
   "com.baidu.tieba": {
     "label": "百度贴吧",
@@ -4880,7 +4887,7 @@
     "contributors": "fankes, by32mu"
   },
   "com.twitter.android": {
-    "label": "Twitter",
+    "label": "com.twitter.android",
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
@@ -4893,7 +4900,7 @@
     "contributors": "hxh34"
   },
   "com.ucmobile.lite": {
-    "label": "UC浏览器极速版",
+    "label": "com.ucmobile.lite",
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
@@ -5829,18 +5836,6 @@
     "overlay": false,
     "contributors": "Nyx-233"
   },
-  "mz_stat_sys_baidu": {
-    "label": "mz_stat_sys_baidu",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
-  },
-  "mz_stat_sys_gaode": {
-    "label": "mz_stat_sys_gaode",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
-  },
   "net.afdian.afdian": {
     "label": "爱发电",
     "format": "png",
@@ -5856,10 +5851,11 @@
     "contributors": "HeMing505"
   },
   "net.evecom.android.mztapp": {
-    "label": "net.evecom.android.mztapp ",
+    "label": "闽政通",
     "format": "png",
+    "color": "#294A9D",
     "overlay": false,
-    "contributors": "CODIGSALA"
+    "contributors": "Giresharu"
   },
   "net.haozaixian": {
     "label": "好课在线",
