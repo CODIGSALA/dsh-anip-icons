@@ -5,7 +5,7 @@
 
 ## 内容
 
-- 共 **744** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中）
+- 共 **743** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中）
 - 全部放在 `icons/app/` 下，配 `icons/app/manifest.json`（包名 → 图标规则）
 
 > **为什么只有 `app/` 一棵树**：FlymeBarSizer 的 bundle 解析器只解包 `app/` 前缀
@@ -23,6 +23,7 @@ FlymeBarSizer 的渲染规则是「裁掉透明留白 → 等比 fit 到 18dp �
 
 ## 变更记录
 
+- 撤掉「移动热点」`com.android.networkstack.tethering`——ANIP 条目对 Flyme 热点通知不生效（Flyme 自有一套通知图标机制），不保留
 - 撤掉 8 个原生 Android 系统图标（`android` / 蓝牙 / 浏览器 / 电子邮件 / NFC / 下载 / 设置 / 录音机）——实测对 Flyme 通知图标无实际影响，不保留
 - 新增「移动热点」`com.android.networkstack.tethering`
 - （曾短暂加入的）恢复 8 个被误删的系统图标（`android` / 蓝牙 / 浏览器 / 电子邮件 / NFC / 下载 / 设置 / 录音机）+ 新增「移动热点」`com.android.networkstack.tethering`
