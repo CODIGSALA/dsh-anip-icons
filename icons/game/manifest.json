@@ -1,0 +1,79 @@
+{
+  "com.ali.games.star.mini01": {
+    "label": "三国志幻想大陆",
+    "format": "png",
+    "color": "#B5BFFB",
+    "overlay": false,
+    "contributors": "NekoMua"
+  },
+  "com.baitian.aobi.czs.mi": {
+    "label": "奥比岛 (小米渠道服)",
+    "format": "png",
+    "color": "#A3B1E8",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.bilibili.azurlane": {
+    "label": "碧蓝航线",
+    "format": "png",
+    "color": "#FF6699",
+    "overlay": false,
+    "contributors": "zzyym"
+  },
+  "com.miHoYo.Yuanshen": {
+    "label": "原神",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miHoYo.enterprise.NGHSoD": {
+    "label": "崩坏3",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.miHoYo.hkrpg": {
+    "label": "崩坏：星穹铁道",
+    "format": "png",
+    "overlay": false,
+    "contributors": "NekoMua, ZzzZzh"
+  },
+  "com.netease.sky": {
+    "label": "光·遇",
+    "format": "png",
+    "color": "#D78951",
+    "overlay": false,
+    "contributors": "leoli"
+  },
+  "com.tencent.jkchess": {
+    "label": "金铲铲之战",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.tencent.lolm": {
+    "label": "英雄联盟手游",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.tencent.tmgp.cod": {
+    "label": "使命召唤手游",
+    "format": "png",
+    "color": "#ECD613",
+    "overlay": false,
+    "contributors": "09277632"
+  },
+  "com.tencent.tmgp.pubgmhd": {
+    "label": "和平精英",
+    "format": "png",
+    "overlay": false,
+    "contributors": "fankes"
+  },
+  "com.tencent.tmgp.sgame": {
+    "label": "王者荣耀",
+    "format": "png",
+    "overlay": false,
+    "contributors": "lamprose, fankes"
+  }
+}
