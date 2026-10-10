@@ -5,23 +5,29 @@
 
 ## 内容
 
-- 共 **832** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中不拉伸）
+- 共 **833** 张通知图标（45×66 px、纯白前景 + 透明背景、等比居中）
 - 全部放在 `icons/app/` 下，配 `icons/app/manifest.json`（包名 → 图标规则）
-- 含 DSH（`com.dsharnessmobile.shell`，label `DSH`）、百度（`com.baidu.searchbox`）、高德（`com.autonavi.minimap`）等
 
 > **为什么只有 `app/` 一棵树**：FlymeBarSizer 的 bundle 解析器只解包 `app/` 前缀
-> （`AnipBundleStore.PREFIX = "app/"`），`game/`、`system/` 会被直接忽略 → 全部图标并入 `app/`，才能被搜到、生效。
+> （`AnipBundleStore.PREFIX = "app/"`），`game/`、`system/` 会被直接忽略。
+
+## 尺寸校准（本版新增）
+
+FlymeBarSizer 的渲染规则是「裁掉透明留白 → 等比 fit 到 18dp 方框」，所以**图标在通知栏里的可见大小只由图形的宽高比决定**：
+
+- 以成品微信（54×50 px）与 QQ（48×54 px）为基准（渲染面积均值 ≈2565），
+- 对宽高比偏离的 **364 张**做了**受限拉伸**（每条最多 15%，避免图形明显变形），
+- 结果：渲染面积 <2000 px² 的图标从 136 张降到 73 张，平均面积偏差 348 → 266。
+
+另外所有图标四周统一保留 **≥1px** 安全边距（在放大/加粗之前先留边），**不会有任何像素被画布边缘切掉**。
 
 ## 变更记录
 
-- **DSH 重新设计**：图形 45×37（原 45×34），通知栏按模块规则渲染为 **54×44 px**，
-  与微信图标（54×44）完全等高；轮廓只向外加粗 1px（保留眼睛/嘴部镂空），视觉分量与微信/QQ 一致。
-- `com.autonavi.minimap`（高德）、`com.baidu.searchbox`（百度）替换为哥提供的新版本。
-- 移除 `com.jd.jdlite`（源目录已删除）。
+- 恢复 `com.jd.jdlite`（京东特价版，与 `com.jingdong.app.mall` 是不同应用）
+- DSH 图标重做：图形 43×38，渲染 54×48，与微信同档；四边各留 1px，不再裁到像素
+- 全量尺寸校准（见上）
 
 ## 怎么用（ANIP 自定义地址）
-
-在模块里把「通知图标来源」设为**自定义地址**：
 
 ```
 https://cdn.gh-proxy.org/https://github.com/CODIGSALA/dsh-anip-icons/releases/latest/download
@@ -33,8 +39,8 @@ https://cdn.gh-proxy.org/https://github.com/CODIGSALA/dsh-anip-icons/releases/la
 https://cdn.jsdelivr.net/gh/CODIGSALA/dsh-anip-icons/dist
 ```
 
-模块会自动拼接 `anip-release.json`；更新后**必须重启 App 或 SystemUI**（图标库只在进程启动时加载一次）。
+模块会自动拼接 `anip-release.json`；更新后重启 App / SystemUI 生效。
 
 ## 数据来源
 
-图标来自 ANIP 官方资源库，并按需替换为自己整理的白化版本（Lanczos3 + USM 锐化 + 去雾）。
+图标来自 ANIP 官方资源库，并按需替换为自己整理的白化版本（Lanczos3 + USM 锐化）。

@@ -1714,6 +1714,12 @@
     "overlay": false,
     "contributors": "parzival"
   },
+  "com.dsharnessmobile.shell": {
+    "label": "DSH",
+    "format": "png",
+    "overlay": false,
+    "contributors": "CODIGSALA"
+  },
   "com.dudiangushi.dudiangushi": {
     "label": "每天读点故事",
     "format": "png",
@@ -2616,6 +2622,10 @@
     "color": "#E83A50",
     "overlay": false,
     "contributors": "NekoMua"
+  },
+  "com.jd.jdlite": {
+    "label": "京东极速版",
+    "format": "png"
   },
   "com.jd.jrapp": {
     "label": "京东金融",
@@ -5975,11 +5985,5 @@
     "color": "#0175FF",
     "overlay": false,
     "contributors": "parules"
-  },
-  "com.dsharnessmobile.shell": {
-    "label": "DSH",
-    "format": "png",
-    "overlay": false,
-    "contributors": "CODIGSALA"
   }
 }
