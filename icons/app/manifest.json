@@ -5113,5 +5113,14 @@
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
+  },
+  "com.android.networkstack.tethering": {
+    "label": {
+      "en": "Mobile hotspot",
+      "zh-CN": "移动热点"
+    },
+    "format": "png",
+    "overlay": false,
+    "contributors": "CODIGSALA"
   }
 }
