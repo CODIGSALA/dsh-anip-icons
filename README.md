@@ -23,7 +23,8 @@ FlymeBarSizer 的渲染规则是「裁掉透明留白 → 等比 fit 到 18dp �
 
 ## 变更记录
 
-- **新增「Via」`mark.via` 与「Google Play 商店」`com.android.vending`**（本次）：两者都取自应用自身的矢量素材再自行光栅化——Via 用 APK 内 `assets/logo.svg` 的三段品牌 V 路径；Play 商店用 APK 内 adaptive-icon 的 **monochrome 单色矢量层**（官方单色三角）。成品 43×36 / 43×48 等比居中，与微信（43×40）同档
+- **Via 与 Google Play 商店改为灰阶层次版**（本次）：参考库内「飞书」图标的做法，不再通体死白，改用多档白/灰 alpha 做纹理——Via 三段 `0.66 / 0.86 / 1.00`（左暗右亮，呈折纸丝带感）；Play 商店官方 monochrome 矢量四块 `0.60 / 1.00 / 0.74 / 0.88`（上亮下暗，保留官方折痕缝）。同时把合成算法改为**覆盖率加权**（`Σ hits_i/area × a_i`），块交界不再出现抗锯齿暗线
+- 新增「Via」`mark.via` 与「Google Play 商店」`com.android.vending`：两者都取自应用自身的矢量素材再自行光栅化——Via 用 APK 内 `assets/logo.svg` 的三段品牌 V 路径；Play 商店用 APK 内 adaptive-icon 的 **monochrome 单色矢量层**（官方单色三角）。成品 43×36 / 43×48 等比居中，与微信（43×40）同档
 - **再次撤掉**「移动热点」`com.android.networkstack.tethering`（哥实机确认：换成控制中心同款形态后依然不生效；根因是模块对系统应用的 `hasLauncherEntry` 判定，与图标形态无关）
 - 重新加入「移动热点」`com.android.networkstack.tethering`（本次）：源用 SystemUI 的 `ic_control_hotspot`（中心点 + 三道同心弧，与 Flyme 控制中心/状态栏热点样式一致），裁留白后 43×36 等比居中
 - 撤掉「移动热点」`com.android.networkstack.tethering`——ANIP 条目对 Flyme 热点通知不生效（Flyme 自有一套通知图标机制），不保留
