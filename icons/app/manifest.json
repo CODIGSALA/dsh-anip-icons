@@ -5113,5 +5113,22 @@
     "format": "png",
     "overlay": false,
     "contributors": "CODIGSALA"
+  },
+  "mark.via": {
+    "label": "Via",
+    "format": "png",
+    "color": "#00A5F6",
+    "overlay": false,
+    "contributors": "CODIGSALA"
+  },
+  "com.android.vending": {
+    "label": {
+      "en": "Google Play Store",
+      "zh-CN": "Google Play 商店"
+    },
+    "format": "png",
+    "color": "#01875F",
+    "overlay": false,
+    "contributors": "CODIGSALA"
   }
 }
